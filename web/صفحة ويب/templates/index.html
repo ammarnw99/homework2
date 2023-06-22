@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learn Web Design from Scratch to Pro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>Welcome to Learn Web Design!</h1>
+        <p>Start your journey to becoming a web design professional.</p>
+        <p>Here are some key features of our website:</p>
+        <ul>
+            <li>Comprehensive tutorials on HTML, CSS, and JavaScript.</li>
+            <li>Step-by-step guides for building responsive and visually appealing websites.</li>
+            <li>Interactive coding exercises to practice your skills.</li>
+            <li>Examples of real-world web design projects.</li>
+            <li>Resources and recommendations for web design tools and frameworks.</li>
+            <li>Community forum to connect with other learners and share ideas.</li>
+        </ul>
+        <p>Join us today and unlock your potential as a web design professional!</p>
+    </div>
+
+
+</body>
+</html>
